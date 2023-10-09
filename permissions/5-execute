@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod u+w 5-execute
+chmod u+w 5-execute hello
