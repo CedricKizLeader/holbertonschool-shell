@@ -1,2 +1,2 @@
 #!/bin/bash
-find . type -d -empty -exec {} \; -o -type f -empty -exec {} \;
+find . -empty 
