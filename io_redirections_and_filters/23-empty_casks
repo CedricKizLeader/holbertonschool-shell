@@ -1,2 +1,2 @@
 #!/bin/bash
-find . \( -type d -o -type f \) -empty -printf '%P\n' | awk -F/ '{print $NF}'
+find . -type f -empty -exec basename {} \; && find . -type d -empty -exec basename {} \; && echo ""
